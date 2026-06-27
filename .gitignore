@@ -1,0 +1,55 @@
+node_modules/
+.pnpm-store/
+.yarn/
+.npm/
+
+# Build
+.next/
+out/
+dist/
+build/
+.vercel/
+.turbo/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Data files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sql
+*.dump
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.crt
+*.cert
+credentials.json
+service-account.json
+
+# Backups
+*.zip
+*.rar
+*.7z
+*.bak
+backup/
+backups/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
